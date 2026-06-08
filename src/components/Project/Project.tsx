@@ -2,7 +2,7 @@ import { Container } from "./styles";
 import githubIcon from "../../assets/github.svg"
 import externalLink from "../../assets/external-link.svg"
 import bookmydocScreenshot from "../../assets/bookmydoc_screenshot.png"
-import ScrollAnimation from "react-animate-on-scroll";
+
 
 export function Project() {
   return (
@@ -11,7 +11,7 @@ export function Project() {
       <div className="projects">
 
         {/* Project #1: Featured BookMyDoc */}
-        <ScrollAnimation animateIn="flipInX">
+        
           <div className="project featured">
             <div className="featured-image">
               <a href="https://ranjan-healthcare-acup42naj-alok-ranjans-projects-9511fdcc.vercel.app/" target="_blank" rel="noreferrer">
@@ -47,10 +47,10 @@ export function Project() {
               </footer>
             </div>
           </div>
-        </ScrollAnimation>
+        
 
         {/* Project #2: AI Powered Chatbot (RAG System) */}
-        <ScrollAnimation animateIn="flipInX">
+        
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
@@ -81,10 +81,10 @@ export function Project() {
               </ul>
             </footer>
           </div>
-        </ScrollAnimation>
+        
 
         {/* Project #3: AI Trip Planner */}
-        <ScrollAnimation animateIn="flipInX">
+        
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
@@ -116,10 +116,10 @@ export function Project() {
               </ul>
             </footer>
           </div>
-        </ScrollAnimation>
+        
 
         {/* Project #4: Face Recognition Attendance System */}
-        <ScrollAnimation animateIn="flipInX">
+        
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
@@ -150,10 +150,10 @@ export function Project() {
               </ul>
             </footer>
           </div>
-        </ScrollAnimation>
+        
 
         {/* Project #5: JNKT Cricket Academy */}
-        <ScrollAnimation animateIn="flipInX">
+        
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
@@ -184,7 +184,7 @@ export function Project() {
               </ul>
             </footer>
           </div>
-        </ScrollAnimation>
+        
 
       </div>
     </Container>
